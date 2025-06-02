@@ -179,7 +179,7 @@ ASP 工具脚本使用手册
 
     八、版本信息
         版本：1.0
-        作者：traffic
+        作者：pendorix <帝国时代游戏ID: traffic>
         邮箱：shikoushou41@gmail.com
         日期：2025-06-01
         授权协议：MIT License

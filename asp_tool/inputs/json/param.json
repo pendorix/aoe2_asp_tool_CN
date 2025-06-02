@@ -1,0 +1,31 @@
+{
+    "reorder": {
+        "scx_path": "./inputs/scenario/test_from.aoe2scenario",
+        "output_path": "./inputs/scenario/test_to.aoe2scenario",
+        "shuffle_order": true,
+        "show_order": true
+    },
+    "del": {
+        "src_path": "./inputs/scenario/test_from.aoe2scenario",
+        "des_path": "./inputs/scenario/test_to.aoe2scenario",
+        "del_range": [0, 1]
+    },
+    "mig": {
+        "scn1_path": "./inputs/scenario/test_from.aoe2scenario",
+        "scn2_path": "./inputs/scenario/test_to.aoe2scenario",
+        "migrate_triggers": ["T5"],
+        "insert_pos": -1,
+        "output_path": "./inputs/scenario/test_del_reorder.aoe2scenario"
+    },
+    "importxs": {
+        "src_path": "./inputs/scenario/test_from.aoe2scenario",
+        "des_path": "./inputs/scenario/test_to.aoe2scenario",
+        "scx_title": "地图标题",
+        "script_title": "XS Functions",
+        "xs_files": [
+            "./inputs/scenario/const.xs",
+            "./inputs/scenario/unitConst.xs",
+            "./inputs/scenario/unitConst.xs"
+        ]
+    }
+}
